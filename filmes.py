@@ -16,7 +16,15 @@ print("Ordenada: \n", filmes)
 for i in filmes:
     print(i)
 
+print()
+
 filmes.reverse()
 
 for i in filmes:
     print(i)
+
+filmes.insert(', "Pianista')
+filmes.insert(10, "Projeto X")
+
+for filme in filmes:
+    print(filme)
