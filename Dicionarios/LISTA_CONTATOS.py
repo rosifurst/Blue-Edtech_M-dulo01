@@ -17,7 +17,10 @@ print(lista[0][0])
 if "Rosicleia" in lista[0]:
     print("Encontrada!")
 else:
-    print("Não está na lista|!")
+    print("Não está na lista!")
+
+
+
 
 
 
