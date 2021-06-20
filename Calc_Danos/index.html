@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de Dano - RPG</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="index.js"></script>
+    </head>
+    <body onload="iniciar()">
+        <div class="calculadora-dano">
+            <div class="linha-container">
+                <h1 class="titulo pula-linha">CALCULADORA DE DANOS</h1>
+            </div>
+
+            <div class="linha-container">
+                <h2>SELECIONE UM PERSONGEM</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento personagem" id="orc">
+                    <img src="img/ORC.gif" alt="Orc" width="200" height="200" />
+                    <p>ORC</p>
+                </div>
+                <div class="elemento personagem" id="globin">
+                    <img
+                        src="img/goblinAssasin.gif  "
+                        alt="Globin"
+                        width="200"
+                        height="200"
+                    />
+                    <p>GLOBIN</p>
+                </div>
+                <div class="elemento personagem" id="CAVALEIRO">
+                    <img
+                        src="img/Cavaleiros 2.gif"
+                        alt="CAVALEIRO"
+                        width="200"
+                        height="200"
+                    />
+                    <p>CAVALEIRO</p>
+                </div>
+            </div>
+
+            <div class="linha-container">
+                <h2>SELECIONE UMA ARMA</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento arma" id="soco">
+                    <img
+                        src="img/soco.png"
+                        alt="Soco"
+                        width="200"
+                        height="200"
+                    />
+                    <p>SOCO</p>
+                </div>
+                <div class="elemento arma" id="arco">
+                    <img
+                        src="img/arco.png"
+                        alt="Arco"
+                        width="200"
+                        height="200"
+                    />
+                    <p>ARCO</p>
+                </div>
+                <div class="elemento arma" id="espada">
+                    <img
+                        src="img/espada.png"
+                        alt="Espada"
+                        width="200"
+                        height="200"
+                    />
+                    <p>ESPADA</p>
+                </div>
+            </div>
+
+            <div class="linha-container">
+                <button id="calcular" type="button">Calcular Dano</button>
+            </div>
+
+            <div class="linha-container">
+                <span id="dano"></span>
+            </div>
+        </div>
+    </body>
+</html>
